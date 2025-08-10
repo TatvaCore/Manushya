@@ -1,0 +1,29 @@
+.file-tree {
+  width: 250px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.file-tree ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.file-tree li {
+  padding: 2px 0;
+}
+
+.file-tree li span {
+  cursor: pointer;
+}
+
+.file-tree li span:hover {
+  text-decoration: underline;
+}
+
+.file-tree li.folder > span {
+  font-weight: bold;
+}
