@@ -1,0 +1,13 @@
+.editor-container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.editor-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #888;
+  font-size: 1.2rem;
+}

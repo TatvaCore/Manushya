@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  overflow: auto;
+}
+
+/* Left Panel - AI Chat */
+.main-container > div:nth-child(1) {
+  flex: 0 0 25%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Middle Panel - Files & Code Editor */
+.main-container > div:nth-child(2) {
+  flex: 1;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Right Panel - Android Virtual Device */
+.main-container > div:nth-child(3) {
+  flex: 0 0 25%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-placeholder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #aaa;
+  margin-top: 1rem;
+  color: #777;
+}
